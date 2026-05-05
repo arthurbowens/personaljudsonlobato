@@ -1,0 +1,18 @@
+/* Moldura editorial para fotos — realça mesmo imagens mais casuais */
+.photo-shell {
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 2px 4px rgba(0, 0, 0, 0.15),
+    0 32px 64px -16px rgba(0, 0, 0, 0.65);
+}
+
+.photo-shell img {
+  filter: contrast(1.04) saturate(1.02);
+}
+
+.mesh-bg {
+  background-image:
+    radial-gradient(ellipse 100% 80% at 50% -30%, rgba(45, 212, 191, 0.12), transparent 55%),
+    radial-gradient(ellipse 60% 50% at 100% 0%, rgba(59, 130, 246, 0.06), transparent 45%),
+    radial-gradient(ellipse 50% 40% at 0% 100%, rgba(45, 212, 191, 0.05), transparent 40%);
+}
